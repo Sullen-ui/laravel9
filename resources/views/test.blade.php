@@ -3,7 +3,8 @@
 
 @auth()
 
-<p>Secret text!</p> 
+<p>Secret text!</p>
+<p>pizdes</p> 
 <h3>{{Auth::user()->name}}</h3>
 <h3>{{Auth::user()->dob}}</h3>
 @endif
