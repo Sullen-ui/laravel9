@@ -7,11 +7,8 @@ use Illuminate\Support\Facades\Auth;
 
 class PagesController extends Controller
 {
-    public function test()
+    public function admin()
     {
-        return view('test',[
-
-            "user" => Auth::user()
-        ]);
+        return view ('admin');
     }
 }
